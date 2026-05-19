@@ -12,8 +12,8 @@ export default function Footer() {
         <p className="text-gray-500 text-sm">© 2025 Shivam Kumar. All rights reserved.</p>
         <div className="flex items-center gap-5">
           {[
-            { icon: <FaGithub size={18} />, href: GITHUB },
-            { icon: <FaLinkedin size={18} />, href: LINKEDIN },
+            { icon: <FaGithub size={18} />, href: "https://www.github.com/ShivamSunny26" },
+            { icon: <FaLinkedin size={18} />, href: "https://www.linkedin.com/in/shivamkumar2607" },
             { icon: <FaEnvelope size={18} />, href: `https://mail.google.com/mail/?view=cm&fs=1&to=${EMAIL}` },
           ].map(({ icon, href }, i) => (
             <motion.a key={i} href={href} target="_blank" rel="noreferrer"
