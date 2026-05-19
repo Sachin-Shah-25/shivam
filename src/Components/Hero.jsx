@@ -4,7 +4,7 @@ import {
   FaDownload,
 } from "react-icons/fa"
 import React, { useRef } from "react"
-import me from "../assets/my.png"
+import me from "../assets/my2.png"
 const GITHUB=import.meta.env.VITE_GITHUB
 const LINKEDIN=import.meta.env.VITE_LINKEDIN
 const EMAIL=import.meta.env.VITE_EMAIL
